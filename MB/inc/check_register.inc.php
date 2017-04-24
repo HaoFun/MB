@@ -1,0 +1,30 @@
+<?php
+if(empty($_POST['name']))
+{
+    skip('register.php','error','用戶名稱不可空白');
+}
+if(mb_strlen($_POST['name'])>32)
+{
+    skip('register.php','error','用戶名稱不可大於32位!');
+}
+if(mb_strlen($_POST['password'])<6)
+{
+    skip('register.php','error','密碼不可小於6位!');
+}
+if($_POST['password']!=$_POST['confirm_password'])
+{
+    skip('register.php','error','兩次密碼輸入不同!');
+}
+if(strtolower($_POST['vcode'])!=strtolower($_SESSION['vcode']))
+{
+    skip('register.php','error','驗證碼錯誤!');
+}
+$_POST=escape($link,$_POST);
+$query="select * from fm_member where name='{$_POST['name']}'";
+
+$result=execute($link,$query);
+if(mysqli_num_rows($result))
+{
+    skip('register.php','error','該用戶名稱已註冊了!');
+}
+?>

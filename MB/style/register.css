@@ -1,0 +1,122 @@
+#register
+{
+	background:#fff;
+    width: 700px;
+}
+#register h2
+{
+	border-bottom: 1px solid #ededed;
+    color: #666;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+#register form
+{
+	color:#333;
+}
+#register form label
+{
+	display:block;
+	font-size: 15px;
+    line-height: 25px;
+    float:right;
+    font-weight: 700;
+    margin:20px 90px 0 0px;
+}
+#register form label input
+{
+	width:200px;
+	height:20px;
+	background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow:2px 2px 2px #f0f0f0 inset;
+    color: #333;
+    font-family: 微軟正黑體;
+    font-size: 100%;
+    line-height: 20px;
+    margin: 0;
+    padding: 4px;
+}
+#register .label_time
+{
+    display:block;
+    font-size: 15px;
+    line-height: 25px;
+    float:right;
+    margin:10px 300px 0 0px;
+}
+#register form span
+{
+    width: 200px;
+    display:inline-block;
+    color:#999;
+    font-size:15px;
+    margin:0 0 0 5px;
+}
+.btn
+{
+    border:2px black solid;
+	border-radius: 2px;
+    line-height: normal;
+    background:url(core_bg.png) 0 0 #f3f3f3;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 微軟正黑體;
+    font-size: 100%;
+    margin: 0;
+    overflow: visible;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    white-space: nowrap;
+    font-weight: 600;
+}
+#register .btn
+{
+    background:#FFCC22;
+    color: #000000;
+	margin:10px 0px 60px 250px;
+}
+.btn_check
+{
+    border:2px black solid;
+    border-radius: 2px;
+    line-height: normal;
+    background:url(core_bg.png) 0 0 #f3f3f3;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 微軟正黑體;
+    font-size: 100%;
+    margin: 0;
+    overflow: visible;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    white-space: nowrap;
+    font-weight: 600;
+}
+#register .btn_check
+{
+    background:#FFCC22;
+    color: #000000;
+    margin:10px 0px 60px 0px;
+}
+#register img.vcode
+{
+	display: block;
+    float: left;
+    margin: 5px 0 0 285px;
+}
+#register .time
+{
+    width:200px;
+    height:25px;
+    font-weight: 600;
+}

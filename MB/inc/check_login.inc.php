@@ -1,0 +1,22 @@
+<?php
+if(empty($_POST['name']))
+{
+    skip('login.php','error','用戶名稱不可空白');
+}
+if(mb_strlen($_POST['name'])>32)
+{
+    skip('login.php','error','用戶名稱不可大於32位!');
+}
+if(mb_strlen($_POST['password'])<6)
+{
+    skip('login.php','error','密碼不可小於6位!');
+}
+if(strtolower($_POST['vcode'])!=strtolower($_SESSION['vcode']))
+{
+    skip('login.php','error','驗證碼錯誤!');
+}
+if(empty($_POST['time']) || !is_numeric($_POST['time']) || $_POST['time']>2592000)
+{
+    skip('login.php','error','自動登入選項錯誤!');
+}
+?>

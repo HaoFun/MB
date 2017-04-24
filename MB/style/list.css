@@ -1,0 +1,194 @@
+#main
+{
+	background:url(main_bg.png) fixed repeat-y;
+	background-size: contain;
+	margin-top:10px;
+}
+#main #left
+{
+	width:66%;
+	padding:7px 20px;
+	float:left;
+}
+#main #right
+{
+	width:30%;
+	float:right;
+}
+#main #left .box_wrap
+{
+	color:#666;
+	line-height:22px;
+	font-weight: 600;
+}
+#main #left div.box_wrap h3
+{
+	margin:14px 0 0 0;
+	font-size:20px;
+	color:#ff322e;
+}
+#main #left div.num span
+{
+	color:#000;
+	font-weight:bold;
+}
+#main #left div.moderator
+{
+	font-weight: 600;
+	color:#333;
+}
+#main #left div.notice
+{
+	font-weight: 600;
+	color:#333;
+}
+#main #left div.moderator span
+{
+	font-weight: 600;
+	color:#333;
+}
+#main #left div.pages_wrap
+{
+	margin:12px 0 0 0;
+}
+#main ul.postsList
+{
+	margin:10px 0 0 0;
+	border-top:1px dashed #ddd;
+}
+#main ul.postsList li
+{
+	border-bottom:1px dashed #ddd;
+	padding:15px 0;
+}
+#main ul.postsList li div.smallPic
+{
+	width:55px;
+	float:left;
+} 
+#main ul.postsList li div.subject
+{
+	width:450px;
+	float:left;
+}
+#main ul.postsList li div.count
+{
+	color: #999;
+	line-height: 18px;
+	text-align: center;
+}
+#main ul.postsList li div.count p
+{
+	background: none repeat scroll 0 0 #f4f4f4;
+	border-radius: 3px;
+	display: block;
+	float: right;
+	height: 36px;
+	margin: 0 0 0 10px;
+	overflow: hidden;
+	padding: 4px 0;
+	width: 54px;
+}
+#main ul.postsList li div.count p span
+{
+	font-weight:bold;
+}
+#main ul.postsList li div.subject .titleWrap a,#main ul.postsList li div.subject .titleWrap h2
+{
+
+	font-size:16px;
+	color:#000000;
+}
+#main ul.postsList li div.subject .titleWrap h2
+{
+	display:inline;
+}
+#main ul.postsList li div.subject p
+{
+	color:#999;
+	padding:10px 0 0 0;
+}
+
+#main #right .classList .title
+{
+	width:260px;
+	margin:0 auto;
+	padding:7px 0;
+	font-weight:bold;
+	font-size: 22px;
+	color:#666;
+	text-indent:10px;
+	border-bottom:1px solid #e8e8e8;
+}
+#main #right .classList ul.listWrap
+{
+	width:220px;
+	margin:15px auto 0 auto;
+}
+#main #right .classList ul.listWrap li h2 a
+{
+	font-size: 18px;
+	font-weight:bold;
+	color:#333;
+}
+#main #right .classList ul.listWrap li ul
+{
+	margin:5px 0 10px 0px;
+}
+#main #right .classList ul.listWrap li ul li
+{
+	background:url(style_icon.png) 0px -389px no-repeat;
+	line-height:180%;
+    border-radius:3px;
+    color: #666;
+    padding-left:10px;
+}
+#main #right .classList ul.listWrap li ul li h3 a
+{
+	font-weight:normal;
+	color:#666;
+}
+#main #right .classList ul.tagList
+{
+	width:240px;
+	margin:0 auto;
+}
+#main #right .classList ul.tagList li
+{
+	display:inline-block;
+	margin:10px 5px 5px 0;
+}
+#main #right .classList ul.tagList li a
+{
+	background:none repeat scroll 0 0 #f6f6f6;
+	border-radius:3px;
+	color:#333333;
+	display:block;
+	float:left;
+	height:24px;
+	line-height:24px;
+	padding:0 8px;
+	text-decoration:none;
+}
+#main #right .classList ul.tagList li a:hover
+{
+	background:#999;
+	color:#fff;
+}
+#main #right .member_big {
+	margin:20px auto 0 auto;
+	width:200PX;
+}
+#main #right .member_big dl dd {
+	line-height:150%;
+	font-weight: 700;
+}
+#main #right .member_big dl dd a {
+	color:#333;
+}
+#main #right .member_big dl dd.name {
+	font-size: 22px;
+	font-weight: 400;
+	line-height:140%;
+	padding:5px 0 10px 0px;
+}

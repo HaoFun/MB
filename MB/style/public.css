@@ -1,0 +1,258 @@
+
+*
+{
+	/*word-break: break-all;*/
+}
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p,button
+{
+	margin:0px;
+	padding:0px;
+	font-size:15px;
+	font-family:微軟正黑體;
+}
+ul
+{
+	list-style:none;
+}
+img,a img
+{
+	border:none;
+}
+a
+{
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+body
+{
+	background:#f4f4f4;
+	color:#333;
+}
+.auto
+{
+	width:auto;
+	margin:0 auto;
+}
+#position
+{
+    font-weight: 600;
+	background:url(style_icon.png) 0px -60px no-repeat;
+	text-indent:20px;
+}
+#position a
+{
+	color:#666;
+}
+
+
+.header_wrap
+{
+	background:#FFCC22;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    display: block;
+    left: 0;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+#header
+{
+	height:45px;
+	line-height:45px;
+}
+#header .logo
+{
+	width:180px;
+	font-size:20px;
+	font-family:微軟正黑體;
+	font-weight:bold;
+	color:#000000;
+	float:left;
+	
+}
+#header .nav a
+{
+	color:#000000;
+	display:block;
+	width:80px;
+	float:left;
+	text-align:center;
+	font-size:16px;
+    font-weight: 700;
+	cursor:pointer;
+}
+#header .nav a.hover
+{
+	background:#FFCC22;
+}
+#header .search
+{
+	background: none repeat scroll 0 0 #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    display: inline;
+    float: right;
+    height: 28px;
+    margin: 8px 0 0 10px;
+    padding:0;
+    width: 170px;
+    margin-right: 20px;
+}
+#header .search:hover
+{
+	background:#fff;
+}
+#header .search input.keyword
+{
+	width:130px;
+	height:20px;
+	margin:3px 0 0 5px;
+	display:block;
+	float:left;
+	border:0px;
+}
+#header .search input.submit
+{
+	background:url(style_icon.png) 0px -593px;
+    border: 0 none;
+    cursor: pointer;
+    float: right;
+    height: 28px;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    text-align:left;
+    width: 25px;
+    float:right;
+}
+#header .login
+{
+	float:right;
+}
+#header .login a
+{
+	color:#000000;
+    font-size:16px;
+    font-weight: 700;
+}
+button.btn
+{
+	display:block;
+	width:70px;
+	height:30px;
+	float:left;
+}
+button.publish
+{
+    border:2px black solid;
+    border-radius: 2px;
+    float: left;
+    background:#FFCC22;;
+    color: #000000;
+    height:30px;
+    width:70px;
+    margin:15px 15px 0 0;
+    padding: 0px 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-size:16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button.reply
+{
+    border:2px black solid;
+    border-radius: 2px;
+    float: left;
+    background:#FFCC22;;
+    color: #000000;
+    height:30px;
+    width:70px;
+    margin:15px 15px 0 0;
+    padding: 0px 10px;
+    text-align: center;
+    font-size:16px;
+    cursor: pointer;
+}
+.pages_wrap .pages
+{
+	float: right;
+}
+.pages a
+{
+    background:url(core_bg.png) #f8f8f8;
+    border-color: #c9c9c9 #bdbdbd #b0b0b0;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    display: inline-block;
+    line-height: 13px;
+    margin-right: 3px;
+    padding: 6px 10px;
+    text-decoration: none;
+    vertical-align: top;
+    cursor: pointer;
+}
+.pages a:hover
+{
+	background-color: #f8f8f8;
+    border-image:none;
+    border-radius:3px;
+    border-style:solid;
+    display:inline-block;
+    line-height:13px;
+    margin-right:3px;
+    padding:6px 10px;
+    text-decoration:none;
+    background:#FFCC22;
+    color:#000000;
+    border:2px black solid;
+}
+.pages span
+{
+    background-color: #f8f8f8;
+    border-color:#c9c9c9 #bdbdbd #b0b0b0;
+    border-image:none;
+    border-radius:3px;
+    border-style:solid;
+    border-width:1px;
+    color:#666666;
+    display:inline-block;
+    line-height:13px;
+    margin-right:3px;
+    padding:6px 10px;
+    text-decoration:none;
+    background:#FFCC22;
+    border-color: #FFCC22;
+    color:#000000;
+}
+
+#footer
+{
+    position: relative;
+    margin-top: 300px;
+    width: 300px;
+    border-top:1px solid #d3d3d3;
+    text-align:center;
+}
+#footer a
+{
+	color:#666;
+}
+#footer .bottom
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+#footer .copyright
+{
+	color: #999;
+    font-size: 16px;
+    font-weight: 700;
+}
