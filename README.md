@@ -1,5 +1,5 @@
-# MB
-  使用PHP、Mysql、ckeditor製作(程序導向)，已上架至LionFree
+# MB(程序導向)
+  使用PHP、Mysql、ckeditor製作，已上架至LionFree
   
   網址:www.philhao.com
   
